@@ -9,3 +9,21 @@
 ## 1. BaseRenderer
 
 ## 2. ProfileMapPageRenderer & Profile
+
+# Step 1. Add the JitPack repository to your build file
+## Gradle
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+# Step 2. Add the dependency
+```
+dependencies {
+	        implementation 'com.github.chrisnoodoe:handymappageview:0.1'
+	}
+```
